@@ -8,7 +8,7 @@ import org.apache.logging.log4j.Logger;
 
 public class OyVey implements ModInitializer, ClientModInitializer {
     public static final String NAME = "OyVey";
-    public static final String VERSION = "0.0.3 - 1.20.1";
+    public static final String VERSION = "0.0.3 - 1.20.4";
 
     public static float TIMER = 1f;
 
@@ -25,6 +25,7 @@ public class OyVey implements ModInitializer, ClientModInitializer {
     public static ModuleManager moduleManager;
     public static ConfigManager configManager;
 
+    //Test Commit + Push to my branch
 
     @Override public void onInitialize() {
         eventManager = new EventManager();
