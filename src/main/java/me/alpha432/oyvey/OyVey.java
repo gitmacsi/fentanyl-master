@@ -26,7 +26,7 @@ public class OyVey implements ModInitializer, ClientModInitializer {
     public static ConfigManager configManager;
 
     //Test Commit + Push to my branch
-
+    //Test Commit + Push with no account
     @Override public void onInitialize() {
         eventManager = new EventManager();
         serverManager = new ServerManager();
